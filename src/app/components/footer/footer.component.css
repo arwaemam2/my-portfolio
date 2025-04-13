@@ -1,0 +1,71 @@
+.footer {
+    background-color: #2c2f3f;  /* نفس اللون الداكن المستخدم في About و Portfolio */
+    color: #fff;  /* لون النص الأبيض */
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .footer h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #f1f1f1;  /* لون النص الفاتح للعناوين */
+    margin-bottom: 1rem;
+  }
+  
+  .footer p {
+    color: #bbb;
+  }
+  
+  .footer a {
+    color: #fff;  /* روابط بيضاء */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #007bff;  /* لون أزرق عند مرور الفأرة */
+  }
+  
+  .social-icons a {
+    color: #fff;  /* أيقونات الشبكات الاجتماعية باللون الأبيض */
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;  /* تحول الأيقونات إلى اللون الأزرق عند المرور */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;  /* زر بلون أزرق */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;  /* زر بلون أزرق داكن عند المرور */
+  }
+  
+  hr.border-light {
+    border-top: 1px solid #444;  /* حدود خفيفة للفصل */
+  }
+  
+  @media (max-width: 767px) {
+    .footer {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  
+    .footer h5 {
+      font-size: 1rem;
+    }
+  
+    .footer p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  
